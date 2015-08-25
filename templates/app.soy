@@ -1,0 +1,24 @@
+{namespace demo.template}
+
+/** The demo HTML */
+{template .Main}
+<div class="{css container}">
+  <div class="{css ripple}">
+    <div class="{css inner} {css horizontal}">
+      <div class="{css image}"></div>
+      <div class="{css sidecontent} {css horizontal} {css center}">
+        <div>
+          <span class="{css strong}">Some text</span><br>
+          <span>Some name and other text</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="{css content} {css horizontal} {css center}">
+    <div>
+      <span class="{css strong}">Click to see effect!</span><br>
+      <span>This is the divs original content</span>
+    </div>
+  </div>
+</div>
+{/template}
